@@ -10,6 +10,6 @@ public class Poursuite : MonoBehaviour
     void Update()
     {
         transform.LookAt(poissonCible.transform);
-        transform.Translate(0, 0, vitesse * Time.deltaTime, Space.Self);
+        //transform.Translate(0, 0, vitesse * Time.deltaTime, Space.Self);
     }
 }
