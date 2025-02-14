@@ -128,18 +128,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4428106790986129177}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &244657885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 244657884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ac14b37a51f25e468565aa4f72233c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &244657886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7ec07ce9e80fadf4aa18a4154de76962,
+  m_Actions: {fileID: -944628639613478452, guid: 3b06356e9049ef144b64333fe5532b41,
     type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
@@ -168,9 +156,48 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: Poisson
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &244657888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244657884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c7e3fe99603e82479fc5939d7999d0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &244657889
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244657884}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,7 +785,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3351268252439224420, guid: 741dc339d3f1f1547a6caa4ddec62683,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 244657885}
+      addedObject: {fileID: 244657888}
+    - targetCorrespondingSourceObject: {fileID: 3351268252439224420, guid: 741dc339d3f1f1547a6caa4ddec62683,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 244657889}
   m_SourcePrefab: {fileID: 100100000, guid: 741dc339d3f1f1547a6caa4ddec62683, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
