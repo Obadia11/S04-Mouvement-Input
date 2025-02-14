@@ -1,0 +1,34 @@
+{
+    "name": "PeripheriqueEntree",
+    "maps": [
+        {
+            "name": "JoueurAuSol",
+            "id": "51147144-7fcf-4e33-989d-335ac0c9f9a0",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "f756b545-39c8-4c42-ba6f-37e65b5974aa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4eccdb97-9d3f-4a99-97ef-51c960033834",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
